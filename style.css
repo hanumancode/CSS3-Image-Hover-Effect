@@ -30,18 +30,26 @@ body {
     transition: 0.5s;
 }
 
+.box:hover .img span {
+    transform: translateY(100%);
+}
+
 .box .img span:nth-child(1) {
     background-position: 0;
+    transition-delay: 0s;
 }
 
 .box .img span:nth-child(2) {
     background-position: 33.33%;
+    transition-delay: 0.1s;
 }
 
 .box .img span:nth-child(3) {
     background-position: 66.66%;
+    transition-delay: 0.2s;
 }
 
 .box .img span:nth-child(4) {
     background-position: 100%;
+    transition-delay: 0.3s;
 }
