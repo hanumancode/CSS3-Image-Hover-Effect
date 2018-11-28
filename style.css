@@ -29,3 +29,19 @@ body {
     background: url(snowman.jpeg);
     transition: 0.5s;
 }
+
+.box .img span:nth-child(1) {
+    background-position: 0;
+}
+
+.box .img span:nth-child(2) {
+    background-position: 33.33%;
+}
+
+.box .img span:nth-child(3) {
+    background-position: 66.66%;
+}
+
+.box .img span:nth-child(4) {
+    background-position: 100%;
+}
