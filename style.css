@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #fff;
 }
 
 .box {
@@ -21,6 +22,8 @@ body {
     top: 0;
     left: 0;
     display: flex;
+    z-index: 1;
+
 }
 
 .box .img span {
@@ -54,12 +57,15 @@ body {
     transition-delay: 0.3s;
 }
 
-.box .content {
+.box .textCopy {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     align-items: center;
-    color: #fff;    
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 20px 0px;
 }
